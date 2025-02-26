@@ -23,7 +23,7 @@ A full-stack user profile management system using React for the frontend and Spr
    mvn spring-boot:run
 
 ## Frontend setup
-1.open another terminal:
+-1.open another terminal:
   cd front end
-2. npm install
-3.npm run dev
+-2. npm install
+-3.npm run dev
