@@ -1,0 +1,69 @@
+/* Full-page gradient background */
+body {
+  background: linear-gradient(to right, #ff6b6b, #c0392b); /* Red gradient */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Centering the content */
+.add-user-container {
+  width: 100%;
+  height: 80vh; /* Full height */
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Heading above form */
+.add-user-container h2 {
+  color: white;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Form card */
+form {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 350px;
+}
+
+/* Input fields */
+input {
+  width: 90%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  background: #222; /* Red */
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Button Hover */
+button:hover {
+  opacity: 0.8;
+  transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  form {
+      width: 90%;
+  }
+}
